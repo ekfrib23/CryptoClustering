@@ -1,6 +1,6 @@
 # CryptoClustering
 ## Motivation
-This project uses data in Resources/crypto_market_data.csv to make predictions on cryptocurrencies using the K-means model and the principal component analysis. The data was normalized to reduce the influence of large values before the calculating the biggest percentage change in order to determine the best value for k or the number of clusters. The clustering was examined for the price change percentage for 7 days vs 24 hours graphically.  From the plot, it appears that the 2 largest clustering can be found above or below around the 0 mark in the 7 day percentage change.  
+This project uses data in Resources/crypto_market_data.csv to make predictions in Crypto_Clustering.ipynb on cryptocurrencies using the K-means model and the principal component analysis. The data was normalized to reduce the influence of large values before the calculating the biggest percentage change in order to determine the best value for k or the number of clusters. The clustering was examined for the price change percentage for 7 days vs 24 hours graphically.  From the plot, it appears that the 2 largest clustering can be found above or below around the 0 mark in the 7 day percentage change.  
 
 In the principal component analysis, using three components captures 89.5 percent of the data. In the 4 clustering K-means model, it appears that the 2 largest clustering can be found above or below around the 0 mark in the PCA2 and mostly has a negative influence for PCA1.
 
